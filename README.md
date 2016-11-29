@@ -9,6 +9,14 @@
  
 
 # SMASolarMQTT
+ ##################################################################
+Forked from [stuartpittaway/SMASolarMQTT](https://github.com/stuartpittaway/SMASolarMQTT) by Derek Jennings
+Hacked about to :-
+* Operate with SMA Sunny Boy 3600TL Inverter
+* Remove debug messages cluttering log files
+* Add systemd unit
+
+ ##################################################################
 
 Report generation statistics from SMA photovoltaic inverter over a shared MQTT hub.  
 
@@ -23,6 +31,10 @@ GNU GENERAL PUBLIC LICENSE -  Version 2, June 1991
 # Installation
 
 Install on Raspberry PI image (low write) emonCMS from https://github.com/emoncms/emoncms/blob/master/readme.md
+Python files should be put in the folder /home/pi/SMASolarMQTT
+Systemd unit should be placed in folder /etc/systemd/system  enable auto start at boot with the command
+'sudo systemd enable SMASolarMQTT' and start it with
+'sudo systemd start SMASolarMQTT'
 
 Fire up a command prompt and install the bluetooth stack
 
