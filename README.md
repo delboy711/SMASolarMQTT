@@ -9,14 +9,15 @@
  
 
 # SMASolarMQTT
- ##################################################################
+==================================================================
+
 Forked from [stuartpittaway/SMASolarMQTT](https://github.com/stuartpittaway/SMASolarMQTT) by Derek Jennings
 Hacked about to :-
 * Operate with SMA Sunny Boy 3600TL Inverter
 * Remove debug messages cluttering log files
 * Add systemd unit
 
- ##################################################################
+===================================================================
 
 Report generation statistics from SMA photovoltaic inverter over a shared MQTT hub.  
 
