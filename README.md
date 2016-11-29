@@ -35,8 +35,10 @@ Install on Raspberry PI image (low write) emonCMS from https://github.com/emoncm
 Python files should be put in the folder /home/pi/SMASolarMQTT
 Edit SMASolarMQTT.service and replace the Bluetooth address in line 7 with your own.
 Systemd unit SMASolarMQTT.service should be placed in folder /etc/systemd/system  enable auto start at boot with the command
-'sudo systemd enable SMASolarMQTT' and start it with
-'sudo systemd start SMASolarMQTT'
+
+`sudo systemd enable SMASolarMQTT` and start it with
+
+`sudo systemd start SMASolarMQTT`
 
 Fire up a command prompt and install the bluetooth stack
 
